@@ -1,13 +1,13 @@
 {
-	"name": "tailwind-rn",
-	"version": "2.1.0",
+	"name": "rn-tailwindcss",
+	"version": "0.0.1",
 	"description": "Use Tailwind CSS in React Native projects",
 	"license": "MIT",
-	"repository": "vadimdemedes/tailwind-rn",
+	"repository": "risurina/tailwind-rn",
 	"author": {
-		"name": "Vadim Demedes",
-		"email": "vdemedes@gmail.com",
-		"url": "https://vadimdemedes.com"
+		"name": "Ronnie Isurina",
+		"email": "risurina@gmail.com",
+		"url": "https://github.com/risurina/rn-tailwindcss"
 	},
 	"bin": {
 		"create-tailwind-rn": "cli.js"
