@@ -1,58 +1,62 @@
 {
-	"name": "rn-tailwindcss",
-	"version": "0.0.1",
-	"description": "Use Tailwind CSS in React Native projects",
-	"license": "MIT",
-	"repository": "risurina/tailwind-rn",
-	"author": {
-		"name": "Ronnie Isurina",
-		"email": "risurina@gmail.com",
-		"url": "https://github.com/risurina/rn-tailwindcss"
-	},
-	"bin": {
-		"create-tailwind-rn": "cli.js"
-	},
-	"engines": {
-		"node": ">=10"
-	},
-	"scripts": {
-		"build": "node cli",
-		"prepare": "npm run build",
-		"test": "xo && tsd && ava"
-	},
-	"files": [
-		"build.js",
-		"cli.js",
-		"index.js",
-		"index.d.ts",
-		"styles.json"
-	],
-	"keywords": [
-		"tailwind",
-		"tailwindcss",
-		"react-native"
-	],
-	"dependencies": {
-		"css": "^3.0.0",
-		"css-to-react-native": "^3.0.0",
-		"match-all": "^1.2.6",
-		"meow": "^7.0.1",
-		"postcss": "^8.1.10"
-	},
-	"devDependencies": {
-		"@ava/babel": "^1.0.1",
-		"ava": "^3.5.0",
-		"prettier": "^1.19.1",
-		"tailwindcss": "^2.0.1",
-		"tsd": "^0.11.0",
-		"xo": "^0.30.0"
-	},
-	"ava": {
-		"babel": true
-	},
-	"prettier": {
-		"useTabs": true,
-		"singleQuote": true,
-		"bracketSpacing": false
-	}
+  "name": "rn-tailwindcss",
+  "version": "0.0.1",
+  "description": "Use Tailwind CSS in React Native projects",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/risurina/rn-tailwindcss.git"
+  },
+  "author": "Ronnie Isurina <risurina@gmail.com> (https://github.com/risurina/rn-tailwindcss)",
+  "bin": {
+    "create-tailwind-rn": "cli.js"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "build": "node cli",
+    "prepare": "npm run build",
+    "test": "xo && tsd && ava"
+  },
+  "files": [
+    "build.js",
+    "cli.js",
+    "index.js",
+    "index.d.ts",
+    "styles.json"
+  ],
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "react-native"
+  ],
+  "dependencies": {
+    "css": "^3.0.0",
+    "css-to-react-native": "^3.0.0",
+    "match-all": "^1.2.6",
+    "meow": "^7.0.1",
+    "postcss": "^8.1.10"
+  },
+  "devDependencies": {
+    "@ava/babel": "^1.0.1",
+    "ava": "^3.5.0",
+    "prettier": "^1.19.1",
+    "tailwindcss": "^2.0.1",
+    "tsd": "^0.11.0",
+    "xo": "^0.30.0"
+  },
+  "ava": {
+    "babel": true
+  },
+  "prettier": {
+    "useTabs": true,
+    "singleQuote": true,
+    "bracketSpacing": false
+  },
+  "bugs": {
+    "url": "https://github.com/risurina/rn-tailwindcss/issues"
+  },
+  "homepage": "https://github.com/risurina/rn-tailwindcss#readme",
+  "main": "index.js"
 }
