@@ -1,4 +1,4 @@
-# rn-tailwindcss ![Status](https://github.com/risurina/rn-tailwindcss/workflows/test/badge.svg)
+# rn-tailwindcss ![test](https://github.com/risurina/rn-tailwindcss/workflows/test/badge.svg)
 
 > Use [Tailwind CSS](https://tailwindcss.com) in [React Native](https://reactnative.dev) projects
 
