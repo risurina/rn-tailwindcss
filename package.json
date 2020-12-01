@@ -1,6 +1,6 @@
 {
   "name": "rn-tailwindcss",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Use Tailwind CSS in React Native projects",
   "license": "MIT",
   "repository": {
